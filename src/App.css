@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #FFD454;
+  --color-secondary: #411759;
+  --color-white: #fff;
+}
+
+* {
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.lateral {
+  display: flex;
+  justify-content: start;
+  width: 50%;
+
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 12px;
+}
