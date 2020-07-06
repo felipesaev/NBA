@@ -1,0 +1,24 @@
+.search {
+  height: 100px;
+}
+
+input[type='text'] {
+  display: block;
+  padding: 10px;
+  border-style: none;
+  border: 1px solid #b8b8b8;
+
+  width: 60%;
+  border-radius: 8px;
+  font-size: 12px;
+  margin: auto;
+}
+
+.form-control {
+  border-style: none;
+  border: 1px solid #b8b8b8;
+  height: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 12px;
+}
