@@ -13,8 +13,6 @@ function App() {
   useEffect( async ()=> {
     const fetchItems = async () => {
       const result = await axios(`https://www.balldontlie.io/api/v1/players`);
-
-
       setItems(result.data.data)
       setIsLoading(false)
     }

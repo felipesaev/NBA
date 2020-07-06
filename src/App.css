@@ -12,6 +12,12 @@
   height: 100%;
 }
 
+.container {
+  display: flex;
+  justify-content: row;
+  width: 100%;
+}
+
 .lateral {
   display: flex;
   justify-content: start;

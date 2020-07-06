@@ -3,9 +3,9 @@ import logo from '../../images/logokobe.png';
 
 const header = () => {
   return (
-    <div className="lateral">
+    <section className="lateral">
       <img src={logo} alt=' imagem lateral'/>
-    </div>
+    </section>
   )
 }
 
